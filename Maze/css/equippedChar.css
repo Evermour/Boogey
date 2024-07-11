@@ -1,0 +1,10 @@
+.equipped{
+    position:relative;
+    display:none;
+    background-color: rgb(23, 46, 148);
+    left:5%;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    
+}

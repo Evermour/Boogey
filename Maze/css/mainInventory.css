@@ -1,0 +1,88 @@
+
+
+.invButtons{
+    position:absolute;
+    display:flex;
+    width: 45%;
+    height: 5%;
+    background-color: rgb(170, 168, 32);
+    top:43.5%;
+    border-width: 0.2rem;
+    border-color: rgb(58, 57, 57);
+    border-radius: 1rem;
+    border-style: solid;
+    left:46%;
+ }
+
+
+
+.inventory{
+    position:relative;
+    display: flex;
+    background-color: blue;
+    width: 45%;
+    height: 33%;
+    border-width: 0.2rem;
+    border-color: rgb(58, 57, 57);
+    border-radius: 1rem;
+    border-style: solid;
+    top:51%;
+    left:.8%;
+ }
+
+
+ .invButton1{
+    position: relative;
+    display: flex;
+    width: 15%;
+    height:55%;
+    left:3%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ 
+ }
+ 
+ .invButton2{
+    position: relative;
+    display: flex;
+    width: 15%;
+    height:55%;
+    left:8%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ }
+ 
+ .invButton3{
+   position: relative;
+    display: flex;
+    width: 15%;
+    height:55%;
+    left:13%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ }
+ 
+ .invButton4{
+   position: relative;
+    display: flex;
+    width: 15%;
+    height:55%;
+    left:18%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ }
+ 
+ .invButton5{
+   position: relative;
+    display: flex;
+    width: 15%;
+    height:55%;
+    left:22%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ }

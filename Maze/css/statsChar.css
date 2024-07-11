@@ -1,0 +1,26 @@
+
+
+
+
+
+.stats{
+    position:relative;
+    display:none;
+    background-color: rgb(153, 19, 75);
+    left:5%;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    border-width: 0.5rem;
+    border-color: black;
+}
+
+.goldStat{
+    position: relative;
+    display: flex;
+    background-color: aquamarine;
+    width: 25%;
+    height: 15%;
+    font-family: fantasy;
+    font-size: 18px;
+}

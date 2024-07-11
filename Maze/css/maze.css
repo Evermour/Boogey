@@ -1,0 +1,214 @@
+ .body1{
+    position: fixed;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height:100%;
+ }
+
+ .imageBox{
+   position:fixed;
+   display: absolute;
+   background-color: rgb(0, 0, 0);
+   width:45%;
+   height: 20rem;
+   border-width: 0.2rem;
+   border-color: rgb(58, 57, 57);
+   border-radius: 1rem;
+   border-style: solid;
+ }
+
+ .forestPathImg{
+   width: 100%;
+   height: 100%;
+   border-radius: 1rem;
+ }
+
+ .shop{
+   position: relative;
+   display: none;
+   background-color: rgb(221, 215, 228);
+
+   width: 45%;
+   height: 20rem;
+   border-width: 0.2rem;
+   border-color: rgb(58, 57, 57);
+   border-radius: 1rem;
+   border-style: solid;
+   overflow: hidden;  
+   top:44%;
+  
+}
+
+
+
+ .storyBoard{
+    position:relative;
+    display: flex;
+    background-color: rgb(221, 215, 228);
+
+    width: 45%;
+    height: 20rem;
+    border-width: 0.2rem;
+    border-color: rgb(58, 57, 57);
+    border-radius: 1rem;
+    border-style: solid;
+    
+    top:43%;
+   
+ }
+
+ .storyTextBox{
+    position:absolute;
+    display:flex;
+    background-color: rgb(221, 215, 228);
+
+    width: 80%;
+    height: 50%;
+    left:10%;
+    top: 6%;
+    font-size: 22px;
+    font-family:fantasy;
+ }
+
+ .storyButtons{
+    position:absolute;
+    display:flex;
+    
+    background-color: rgb(221, 215, 228);
+
+    width: 20%;
+    height: 33%;
+    left:5%;
+    top: 60.5%;
+    font-size: 22px;
+    font-family:fantasy;
+    
+ }
+
+ .storyButton1{
+  position:absolute;
+  display: flex;
+  background-color: rgb(40, 40, 41);
+  width: 100%;
+  height: 23%;
+  font-size: 18px;
+  font-family: fantasy;
+  border-radius: 0.3rem;
+  
+ }
+
+ .storyButton2{
+   
+   position: absolute;
+   display: none;
+   background-color: rgb(40, 40, 41);
+   width: 100%;
+   height: 23%;
+   top: 25%;
+   border-radius: 0.3rem;
+   font-size: 18px;
+  font-family: fantasy;
+  }
+
+  .storyButton3{
+
+   position: absolute;
+   display: none;
+   background-color: rgb(40, 40, 41);
+   width: 100%;
+   height: 23%;
+   top:50%;
+   border-radius: 0.3rem;
+   font-size: 18px;
+  font-family: fantasy;
+  }
+
+  .storyButton4{
+   position: absolute;
+   display: none;
+   background-color: rgb(40, 40, 41);
+   width: 100%;
+   height: 23%;
+   top:75%;
+   border-radius: 0.3rem;
+   font-size: 18px;
+  font-family: fantasy;
+  }
+
+  .storyChoiceBox{
+   display:flex;
+   
+   position: relative;
+   background-color: rgb(221, 215, 228);
+
+   width: 70%;
+   height: 33%;
+   left:27%;
+   top:60%;
+  }
+
+  .storyChoice1{
+   position: absolute;
+   display: flex;
+   background-color: rgb(221, 215, 228);
+   width: 100%;
+   height: 23%;
+   font-size: 17px;
+   font-family: fantasy;
+   
+  }
+
+  .storyChoice2{
+   position: absolute;
+   display: flex;
+   background-color: rgb(221, 215, 228);
+   width: 100%;
+   height: 23%;
+   top:25%;
+   font-size: 17px;
+   font-family: fantasy;
+  }
+
+  .storyChoice3{
+   position: absolute;
+   display: flex;
+   background-color: rgb(221, 215, 228);
+   width: 100%;
+   height: 23%;
+   top:50%;
+   font-size: 17px;
+   font-family: fantasy;
+  }
+   
+  .storyChoice4{
+   position: absolute;
+   display: flex;
+   background-color: rgb(221, 215, 228);
+   width: 100%;
+   height: 23%;
+   top:75%;
+   font-size: 17px;
+   font-family: fantasy;
+  }
+
+
+
+
+ 
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 

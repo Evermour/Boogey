@@ -1,0 +1,193 @@
+.shopInv{
+    display: flex;
+    position: relative;
+    background-color: rgb(40, 40, 41);
+    border-radius: 3px;
+    height: 95%;
+    width: 45%;
+    left:2%;
+    top: 1%;
+}
+
+.shopItemBox{
+    display: flex;
+    position: relative;
+    background-color: rgb(40, 40, 41);
+
+    height: 95%;
+    width: 45%;
+    left:2%;
+    top: 1%;
+    
+}
+
+.shopItem1{
+    display: flex;
+    position: absolute;
+    background-color: rgb(40, 40, 41);
+
+    height: 15%;
+    width: 95%;
+    left:2%;
+    top: 1%;
+}
+
+.shopItem2{
+    display: flex;
+    position: relative;
+    background-color: rgb(40, 40, 41);
+
+    height: 15%;
+    width: 95%;
+    left:2%;
+    top: 18%;
+}
+
+.shopItemBtnBox{
+    display: flex;
+    position: relative;
+    background-color: rgb(40, 40, 41);
+
+    height: 95%;
+    width: 45%;
+    left:6%;
+    top: 1%;
+}
+
+.shopItemBtn1{
+    display: flex;
+    position: absolute;
+    background-color: rgb(221, 215, 228);
+    border-radius: 3px;
+    height: 10%;
+    width: 45%;
+    left:25%;
+    top: 1%;
+    font-size: 15px;
+    font-family: fantasy;
+    
+}
+
+.shopItemBtn2{
+    display: flex;
+    position: absolute;
+    background-color: rgb(221, 215, 228);
+    height: 10%;
+    width: 45%;
+    left:25%;
+    top: 18%;
+    font-size: 15px;
+    font-family: fantasy;
+    border-radius: 3px;
+}
+
+.confirmInv{
+    display: flex;
+    position: relative;
+    background-color: rgb(221, 215, 228);
+
+    height: 95%;
+    width: 45%;
+    left:7%;
+    top: 1%;
+}
+
+.confirmInvBox1{
+    display: flex;
+    position: relative;
+    background-color: rgb(221, 215, 228);
+
+    height: 95%;
+    width: 45%;
+    left:2%;
+    top: 1%;
+}
+
+.confirmInvBox2{
+    display: flex;
+    position: relative;
+    background-color: rgb(221, 215, 228);
+
+    height: 95%;
+    width: 45%;
+    left:6%;
+    top: 1%;
+}
+
+.confirmInvItem1{
+    
+    display: flex;
+    position: absolute;
+    background-color: rgb(221, 215, 228);
+
+    height: 15%;
+    width: 95%;
+    left:2%;
+    top: 1%;
+    
+}
+
+.confirmInvItem2{
+    display: flex;
+    position: relative;
+    background-color: rgb(221, 215, 228);
+
+    height: 15%;
+    width: 95%;
+    left:2%;
+    top: 18%;
+}
+
+.shopConfirmBtn{
+    display: flex;
+    position: absolute;
+    background-color: rgb(40, 40, 41);
+    height: 10%;
+    width: 45%;
+    left:30%;
+    top: 70%;
+    font-size: 15px;
+    font-family: fantasy;
+    border-radius: 3px;
+}
+
+.totalCost{
+    display: flex;
+    position: absolute;
+    background-color: rgb(221, 215, 228);
+
+    height: 10%;
+    width: 60%;
+    left:21%;
+    top: 85%;
+    font-size: 15px;
+    font-family: fantasy;
+    
+}
+
+.shopExitBtn{
+    display: flex;
+    position: absolute;
+    
+    height: 10%;
+    width: 45%;
+    left:30%;
+    top: 85%;
+    font-size: 15px;
+    font-family: fantasy;
+    border-radius: 3px;
+    background-color: rgb(40, 40, 41);
+}
+
+.shopClearBtn{
+    display: flex;
+    position: absolute;
+    background-color: rgb(40, 40, 41);
+    height: 10%;
+    width: 45%;
+    left:30%;
+    top: 55%;
+    font-size: 15px;
+    font-family: fantasy;
+    border-radius: 3px;
+}

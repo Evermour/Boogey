@@ -1,0 +1,19 @@
+
+
+
+
+
+
+.options{
+    position:relative;
+    display:none;
+    background-color: rgb(255, 1, 1);
+    left:5%;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    border-width: 0.5rem;
+    border-color: black;
+ 
+  }
+ 

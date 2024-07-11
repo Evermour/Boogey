@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+      <script src="Js\mod.js" type="module"></script>
+         <script src="Js\InventoryInterfaceDisplay.js"></script>
+         <script src="Js\CharacterInterfaceDisplay.js"></script>
+         <script src="Js\storyFrame.js"></script>
+         <script src="Js\shop.js"></script>
+         
+         <link rel="stylesheet" href="css\maze.css">
+         <link rel="stylesheet" href="css\potionInventory.css">
+         <link rel="stylesheet" href="css\weaponInventory.css">
+         <link rel="stylesheet" href="css/mainInventory.css">
+         <link rel="stylesheet" href="css\armorInventory.css">
+         <link rel="stylesheet" href="css\keyItemsInventory.css">
+         <link rel="stylesheet" href="css\optionsInventory.css">
+         <link rel="stylesheet" href="css\mainCharacter.css">
+         <link rel="stylesheet" href="css\statsChar.css">
+         <link rel="stylesheet" href="css/equippedChar.css">
+         <link rel="stylesheet" href="css\journalChar.css">
+         <link rel="stylesheet" href="css\shop.css">
+
+     </head>
+
+     <body id="body1" class="body1">
+         <div id="charSheet" class="charSheet">
+               <div id="stats" class="stats">
+                   <div id="goldStat" class="goldStat">
+                     Gold: 60
+                   </div>
+               </div>
+
+               <div id="equipped" class="equipped">
+
+               </div>
+
+               <div id="journal" class="journal">
+
+               </div>
+         </div>
+         <div id="charSheetButtons" class="charSheetButtons">
+               <button id="charSheetButton1" class="charSheetButton1" onclick="charInterfaceBtn1()">
+                Stats
+               </button>
+
+               <button id="charSheetButton2" class="charSheetButton2" onclick="charInterfaceBtn2()">
+                Equipped
+               </button>
+
+               <button id="charSheetButton3" class="charSheetButton3" onclick="charInterfaceBtn3()">
+                Journal
+               </button>
+         </div>
+         <div id="imageBox" class="imageBox">
+            <img src="storyimages\forestpath.jpg" id="forestPathImg" class="forestPathImg">
+         </div>
+         <div id="shop" class="shop">
+             <div id="shopInv" class="shopInv">
+                  <div id="shopItemBox" class="shopItemBox">
+                       <div id="shopItem1" class="shopItem1">
+                        Boogeys Dance (50g) (2)
+                       </div>
+                       <div id="shopItem2" class="shopItem2">
+                        Health Potion (10g) (5)
+                       </div>
+                  </div>
+
+                  <div id="shopItemBtnBox" class="shopItemBtnBox">
+                     <button id="shopItemBtn1" class="shopItemBtn1" onclick="Buy1()">
+                            Buy
+                     </button>
+
+                     <button id="shopItemBtn2" class="shopItemBtn2" onclick="Buy2()">
+                            Buy
+                     </button>
+                  </div>
+             </div>
+
+             <div id="confirmInv" class="confirmInv">
+                 <div id="confirmInvBox1" class="confirmInvBox1">
+                     <div id="confirmInvItem1" class="confirmInvItem1">
+
+                     </div>
+
+                     <div id="confirmInvItem2" class="confirmInvItem2">
+
+                     </div>
+
+                     <div id="totalCost" class="totalCost">
+                        Total Cost:
+                     </div>
+                 </div>
+
+                 <div id="confirmInvBox2" class="confirmInvBox2">
+                      <button id="shopConfirmBtn" class="shopConfirmBtn" onclick="confirmBtn()">
+                        Confirm
+                      </button>
+
+                      <button id="shopExitBtn" class="shopExitBtn" onclick="shopExit()">
+                         Exit
+                      </button>
+
+                      <button id="shopClearBtn" class="shopClearBtn" onclick="shopClearBtn()">
+                         Clear
+                      </button>
+                 </div>
+             </div>
+         </div>
+         <div id="storyBoard" class="storyBoard">
+             <div id="storyTextBox" class="storyTextBox">
+              Welcome to the maze, a single-player adventure game. Press the Continue button to move forward."
+             </div>
+
+             <div id="storyButtons" class="storyButtons">
+                 <button id="storyButton1" class="storyButton1" onclick="storyButton1()">
+                   Continue
+                 </button>
+
+                 <button id="storyButton2" class="storyButton2" onclick="storyButton2()">
+                  
+                 </button>
+
+                 <button id="storyButton3" class="storyButton3">
+                  
+                 </button>
+
+                 <button id="storyButton4" class="storyButton4">
+                  
+                 </button>
+             </div>
+
+             <div id="storyChoiceBox" class="storyChoiceBox">
+
+                 <div id="storyChoice1" class="storyChoice1">
+                  
+                 </div>
+
+                 <div id="storyChoice2" class="storyChoice2">
+
+                 </div>
+
+                 <div id="storyChoice1" class="storyChoice3">
+
+                 </div>
+
+                 <div id="storyChoice1" class="storyChoice4">
+
+                 </div>
+
+             </div>
+         </div>
+
+         <div id="invButtons" class="invButtons">
+            <button id="invButton1" class="invButton1" onclick="ib1()">
+              Potions
+            </button>
+
+            <button id="invButton2" class="invButton2" onclick="ib2()">
+              Weapons
+            </button>
+
+            <button id="invButton3" class="invButton3" onclick="ib3()">
+              Armor
+            </button>
+
+            <button id="invButton4" class="invButton4" onclick="ib4()">
+              Key Items
+            </button>
+
+            <button id="invButton5" class="invButton5" onclick="ib5()">
+              Options
+            </button>
+         </div>
+
+         <div id="inventory" class="inventory">
+
+             <div id="potions" class="potions">
+                 <div id="potionSlot1" class="potionSlot1">
+                    Health Potion
+                 </div>
+
+                 <div id="potionSlotImg1" class="potionSlotImg1">
+
+                 </div>
+
+                 <div id="potionSlot2" class="potionSlot2">
+                  Minor Mana Potion
+                 </div>
+
+                 <div id="potionSlotImg2" class="potionSlotImg2">
+
+                 </div>
+
+                 <div id="potionSlot3" class="potionSlot3">
+                   Swift Potion
+                 </div>
+
+                 <div id="potionSlotImg3" class="potionSlotImg3">
+
+                 </div>
+
+                 <div id="potionSlot4" class="potionSlot4">
+                    Boogeys Dance
+                 </div>
+
+                 <div id="potionSlotImg4" class="potionSlotImg4">
+
+                 </div>
+
+                 <div id="potionSlot5" class="potionSlot5">
+                    Level Potion
+                 </div>
+
+                 <div id="potionSlotImg5" class="potionSlotImg5">
+
+                 </div>
+             </div>
+
+             <div class="weapons" id="weapons">
+
+             </div>
+
+             <div class="armor" id="armor">
+
+             </div>
+
+             <div class="keyItems" id="keyItems">
+
+             </div>
+
+             <div class="options" id="options">
+
+             </div>
+         </div>
+
+     </body>
+ </html>

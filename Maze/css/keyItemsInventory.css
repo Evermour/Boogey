@@ -1,0 +1,18 @@
+
+
+
+
+
+
+ .keyItems{
+    position:relative;
+    display:none;
+    background-color: rgb(221, 113, 12);
+    left:5%;
+    width: 90%;
+    height: 90%;
+    top:5%;
+    border-width: 0.5rem;
+    border-color: black;
+ 
+  }

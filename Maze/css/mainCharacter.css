@@ -1,0 +1,69 @@
+
+
+.charSheet{
+    position:absolute;
+    display: flex;
+    background-color: rgb(69, 173, 204);
+    width: 45%;
+    height: 33%;
+    border-width: 0.2rem;
+    border-color: rgb(58, 57, 57);
+    border-radius: 1rem;
+    border-style: solid;
+    top:8%;
+    left:46%;
+}
+
+
+
+.charSheetButtons{
+    position:absolute;
+    display:flex;
+    width: 45%;
+    height: 5%;
+    background-color: rgb(114, 15, 84);
+   
+    border-width: 0.2rem;
+    border-color: rgb(58, 57, 57);
+    border-radius: 1rem;
+    border-style: solid;
+    left:46%;
+}
+
+.charSheetButton1{
+    position: relative;
+    display: flex;
+    width: 25%;
+    height:55%;
+    left:6%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ 
+ }
+ 
+ .charSheetButton2{
+    position: relative;
+    display: flex;
+    width: 25%;
+    height:55%;
+    left:12%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ }
+ 
+ .charSheetButton3{
+   position: relative;
+    display: flex;
+    width: 25%;
+    height:55%;
+    left:18%;
+    top:19%;
+    font-size: 16px;
+    font-family: fantasy;
+ }
+
+ 
+ 
+ 

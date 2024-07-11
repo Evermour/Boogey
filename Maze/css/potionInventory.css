@@ -1,0 +1,141 @@
+
+
+
+
+.potions{
+    position:relative;
+    display:none;
+    background-color: rgb(153, 19, 75);
+    left:5%;
+    width: 90%;
+    height: 90%;
+    top:5%;
+   
+
+ }
+
+ .potionSlot1{
+    position: relative;
+    display: none;
+    background-color: rgb(75, 10, 119);
+    left:5%;
+    width: 13%;
+    height: 15%;
+    top:15%;
+    border-width: 0.1rem;
+    border-color: black;
+    border-style: solid;
+    font-size: 15px;
+    font-family:fantasy;
+ }
+
+ .potionSlotImg1{
+    position: relative;
+    display: none;
+    background-color: rgb(245, 4, 144);
+    width: 5%;
+    height: 10%;
+    top:5%;
+    right:8%;
+ }
+
+ .potionSlot2{
+    position: relative;
+    display: none;
+    background-color: rgb(75, 10, 119);
+    left:10%;
+    width: 13%;
+    height: 15%;
+    top:15%;
+    border-width: 0.1rem;
+    border-color: black;
+    border-style: solid;
+    font-size: 15px;
+    font-family:fantasy;
+ }
+
+ .potionSlotImg2{
+    position: relative;
+    display: none;
+    background-color: rgb(245, 4, 144);
+    width: 5%;
+    height: 10%;
+    top:5%;
+    right:8%;
+ }
+
+ .potionSlot3{
+   position: relative;
+   display: none;
+   background-color: rgb(75, 10, 119);
+   left:5%;
+   width: 13%;
+   height: 10%;
+   top:15%;
+   border-width: 0.1rem;
+   border-color: black;
+   border-style: solid;
+   font-size: 13px;
+   font-family:fantasy;
+   
+ }
+
+ .potionSlotImg3{
+   position: relative;
+   display: none;
+   background-color: rgb(245, 4, 144);
+   width: 5%;
+   height: 10%;
+   top:5%;
+   right:8%;
+ }
+
+ .potionSlot4{
+   position: relative;
+   display: none;
+   background-color: rgb(75, 10, 119);
+   left:5%;
+   width: 13%;
+   height: 10%;
+   top:15%;
+   border-width: 0.1rem;
+   border-color: black;
+   border-style: solid;
+   font-size: 13px;
+   font-family:fantasy;
+ }
+
+ .potionSlotImg4{
+   position: relative;
+   display: none;
+   background-color: rgb(245, 4, 144);
+   width: 5%;
+   height: 10%;
+   top:5%;
+   right:8%;
+ }
+
+ .potionSlot5{
+   position: relative;
+   display: none;
+   background-color: rgb(75, 10, 119);
+   left:5%;
+   width: 13%;
+   height: 10%;
+   top:15%;
+   border-width: 0.1rem;
+   border-color: black;
+   border-style: solid;
+   font-size: 13px;
+   font-family:fantasy;
+ }
+
+ .potionSlotImg5{
+   position: relative;
+   display: none;
+   background-color: rgb(245, 4, 144);
+   width: 5%;
+   height: 10%;
+   top:5%;
+   right:8%;
+ }
